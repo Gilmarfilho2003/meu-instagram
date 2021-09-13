@@ -57,11 +57,6 @@ else
 echo
 fi
 ###############
-torser="tor"
-if pgrep -x "$torser" >/dev/null
-then
-echo 
-else
 echo -e "\e[91mTOR\e[96m IS NOT RUNNING, PLEASE START TOR IN A NEW SESSION
           BY TYPING\e[92m tor\e[96m AND START IGHACK AGAIN\e[0m "
 exit 1
